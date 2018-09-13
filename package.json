@@ -1,0 +1,24 @@
+{
+  "name": "gateway-brick-framework",
+  "version": "1.0.0",
+  "description": "backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/unit/**/*.js",
+    "bench": "matcha test/bench/connect/index.js"
+  },
+  "author": "Ivan",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "lodash": "^4.17.10"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "chai": "^4.1.2",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint": "^5.5.0",
+    "eslint-plugin-import": "^2.14.0",
+    "matcha": "^0.7.0"
+  }
+}
